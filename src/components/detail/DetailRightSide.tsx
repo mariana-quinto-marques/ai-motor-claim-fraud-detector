@@ -66,7 +66,7 @@ export default function DetailRightSide({ claim }: { claim: Claim }) {
       </div>
 
       <div className="ai-model-badge">
-        <span className="ai-model-lbl">Marshmallow Fraud Model v2.4</span>
+        <span className="ai-model-lbl">ClaimShield Fraud Model v2.4</span>
         <span className="ai-model-val">Run: {now.toISOString().slice(0, 19).replace('T', ' ')}</span>
       </div>
     </div>

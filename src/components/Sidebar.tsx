@@ -58,13 +58,16 @@ export default function Sidebar() {
       <div className="sb-top">
         <div className="sb-brand">
           <div className="sb-mark">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M2 12C2 9 4.5 7 8 7C11.5 7 14 9 14 12" stroke="white" strokeWidth="1.8" strokeLinecap="round" />
-              <circle cx="8" cy="4.5" r="2.2" fill="white" />
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L4 6v5c0 5.55 3.4 10.74 8 12 4.6-1.26 8-6.45 8-12V6l-8-4z" stroke="white" strokeWidth="1.5" strokeLinejoin="round" fill="rgba(255,255,255,.1)" />
+              <path d="M7 14h10M7.5 14l1-3h7l1 3" stroke="white" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M9 11.5l.5-1.5h5l.5 1.5" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="9" cy="14" r=".9" fill="white" />
+              <circle cx="15" cy="14" r=".9" fill="white" />
             </svg>
           </div>
-          <span className="sb-wordmark" style={{ fontFamily: "'Fraunces', serif", fontStyle: 'italic' }}>
-            marshmallow
+          <span className="sb-wordmark" style={{ fontWeight: 700, letterSpacing: '-0.5px' }}>
+            ClaimShield
           </span>
         </div>
         <div className="sb-tagline">Claims Intelligence</div>
